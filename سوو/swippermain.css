@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: digi;
+  src: url(../Woff2/IRANSansXFaNum-Medium.woff2);
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/*shgft*/
+section.shgft {
+  background-color: #ef394e;
+  width: 90%;
+  margin: 50px auto;
+  border-radius: 25px;
+  padding: 25px;
+  direction: rtl;
+}
+div.product {
+  display: flex;
+  flex-direction: column;
+  font-family: digi;
+  padding-bottom: 25px;
+  row-gap: 8px;
+}
+div.product > div.price {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+div.product > div.price > div.toman {
+  display: flex;
+  gap: 2px;
+  justify-content: center;
+  align-items: center;
+}
+div.product > div.price > div.toman > p {
+  font-size: 24px;
+  color: #3c3c3c;
+}
+div.product > div.price > div.toman > img {
+  width: 30px;
+  object-fit: contain;
+}
+div.product > div.price > span {
+  background-color: #ef394e;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 25px;
+  font-size: 14px !important;
+}
+div.product > div.firstp {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+div.product > div.firstp > p {
+  margin-left: 60px;
+  color: rgb(136, 136, 136);
+  text-decoration: 2px solid line-through;
+}
+div.progress {
+  width: 90%;
+  height: 4px;
+  background-color: lightgrey;
+  direction: ltr;
+  border-radius: 5px;
+}
+div.progress > div.bar {
+  width: 70%;
+  height: 4px;
+  background-color: #ef394e;
+  border-radius: 5px 0 0 5px;
+}
+.progressN {
+  width: 90%;
+  height: 4px;
+
+  direction: ltr;
+  border-radius: 5px;
+  background-color: transparent;
+}
+div.swiper-wrapper > div.product:nth-of-type(2) {
+  border-radius: 0 15px 15px 0;
+}
+div.swiper-wrapper > div.product:nth-of-type(2) > img {
+  border-radius: 0 15px 0 0;
+}
+div.swiper-wrapper > div.product:last-of-type {
+  border-radius: 15px 0 0 15px;
+}
+div.swiper-wrapper > div.product:last-of-type > img {
+  border-radius: 15px 0 0 0;
+}
+div.noproduct {
+  background-color: transparent;
+  text-align: center;
+}
+div.noproduct > img {
+  width: 70%;
+  display: inline-block;
+}
+div.noproduct > a {
+  text-decoration: none;
+  font-family: digi;
+  color: white;
+}
